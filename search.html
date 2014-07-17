@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     
     <title>Seguros del Estado</title>
     
@@ -19,12 +19,11 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-
+    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/init.js"></script>
     
     <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/contact.js"></script>
     <script src="scripts/retina.js"></script>
     <script src="scripts/swipe.js"></script>
     <script src="scripts/klass.min.js"></script>
@@ -33,11 +32,12 @@
     <script src="scripts/jquery.ui.touch-punch.js"></script>
     <script src="scripts/custom.js"></script>
     <script src="scripts/custom-6-icons.js"></script>
-
+    
 </head>
-<body>
+<body class="bgSite">
 
     <div class="landscape-mode">
+        <div class="topHead"></div>
         <div class="logo"><img src="images/logo.png" width="159" height="auto"></div>
         <div class="txtLandscape">Ubique su celular de forma vertical<br>para tener una mejor experiencia de uso</div>
         <div class="bg-login-landscape"></div>
@@ -63,21 +63,34 @@
             </div>
         </div>
 
-        <iframe width="100%" height="auto" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=cafam+floresta+bogota&amp;aq=&amp;sll=4.6864,-74.074599&amp;sspn=0.009356,0.010396&amp;ie=UTF8&amp;hq=&amp;hnear=Cafam+Floresta,+Colombia&amp;ll=4.6864,-74.074599&amp;spn=0.009356,0.010396&amp;t=m&amp;z=16&amp;output=embed"></iframe><br />
-
-        <div class="container">
-             <h5>Buscar</h5>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-wrench fa-2x"></span><br>Talleres</button>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-car fa-2x"></span><br>CRV</button>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-building fa-2x"></span><br>Oficinas</button>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-info fa-2x"></span><br>P. Atención</button>
-            <br>
-            <div class="spacer1"></div>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-briefcase fa-2x"></span><br>Motallantas</button>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-certificate fa-2x"></span><br>Soat</button>
-            <button type="button" class="buscar btn btn-default btn-sm"><span class="fa fa-ambulance fa-2x"></span><br>Hospitales</button>
-            <div class="spacer4"></div>
+        <div class="tituloPages">Buscar</div>
+        
+        <div class="mapaAreaBuscar">
+            <iframe class="mapaBuscar" width="100%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=cafam+floresta+bogota&amp;aq=&amp;sll=4.6864,-74.074599&amp;sspn=0.009356,0.010396&amp;ie=UTF8&amp;hq=&amp;hnear=Cafam+Floresta,+Colombia&amp;ll=4.6864,-74.074599&amp;spn=0.009356,0.010396&amp;t=m&amp;z=16&amp;output=embed">
+            </iframe>
+            <div class="menuFooterBuscar">
+                <div class="col-xs-4">
+                    <div class="btn btn-default btnFooter"><a href="notificaciones.html">Talleres</a></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="btn btn-default btnFooter"><a href="notificaciones.html">P. Atención</a></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="btn btn-default btnFooter"><a href="notificaciones.html">Hospitales</a></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="btn btn-default btnFooter"><a href="notificaciones.html">CRV</a></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="btn btn-default btnFooter"><a href="notificaciones.html">Oficinas</a></div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="btn btn-default btnFooter"><a href="notificaciones.html">Montallantas</a></div>
+                </div>
+            </div>
         </div>
+        
+
 
     </div>
     

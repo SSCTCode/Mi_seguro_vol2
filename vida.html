@@ -20,6 +20,9 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/init.js"></script>
+    
     <script src="scripts/jquery.min.js"></script>
     <script src="scripts/contact.js"></script>
     <script src="scripts/retina.js"></script>
@@ -32,7 +35,7 @@
     <script src="scripts/custom-6-icons.js"></script>
 
 </head>
-<body>
+<body class="bgSite">
 
     <div class="landscape-mode">
         <div class="logo"><img src="images/logo.png" width="159" height="auto"></div>
@@ -41,51 +44,41 @@
     </div>
 
     <div class="portrait-mode">
-        <div class="header">
-            <a class="go-logo" href="home.html"><img class="replace-2x" height="50" src="images/logo.png" alt="img"></a>
-            <a class="btn pull-right fa fa-home fa-lg" href="home.html"></a>
-            <div class="clear"></div>
-        </div>
-        <div class="decoration"></div>
-        <h3 class="big-heading first-heading">Vida</h3>
-        <div class="container">
-            <h4>Odontología</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi elit, scelerisque eu diam eget, sodales aliquam nulla. Cras pharetra lectus sed ultrices euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur rutrum malesuada dolor id tristique.</p>
-            <div class="spacer1"></div>
-
-            <h4 class="fa fa-stethoscope fa-lg"> Medicina prepagada</h4>
-            <p class="bg-info txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi elit, scelerisque eu diam eget, sodales aliquam nulla. Cras pharetra lectus sed ultrices euismod.</p>
-            <div class="spacer1"></div>
-
-            <h4 class="fa fa-h-square fa-lg"> Centros medicos</h4>
-            <div class="clear spacer2"></div>
-            <div class="col-xs-6">
-                <ul>
-                <li class="fa fa-hospital-o"> <b> Usaquen</b></li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi elit, scelerisque eu diam eget.</p>
-                <li class="fa fa-hospital-o"> <b> Castellana</b></li><br>
-                <p>Lorem ipsum dolor sit amet,  adipiscing elit. In nisi elit,  eu diam eget.</p>
-
-            </ul>
+        <div class="topHead"></div>
+        <div class="menuTop">
+            <div class="col-xs-1">
+                <a class="menu-icon" href="#"><div id="iconMenuTop" class="fa fa-bars fa-2x"></div></a>
             </div>
-            <div class="col-xs-6">
-                <ul>
-                 <li class="fa fa-hospital-o"><b> Suba</b></li>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nisi elit, scelerisque eu diam eget.</p>
-
-                 <li class="fa fa-hospital-o"><b> Teusaquillo</b></li>
-                <p>Lorem ipsum dolor sit amet, elit. In nisi elit, scelerisque eu diam eget.</p>
+            <ul class="side-menu">
+                <div class="topHead"></div>
+                <li class="link"><a href="home.html"><div class="fa fa-map-marker fa-lg"></div> &nbsp; Inicio</a></li>
+                <li class="link"><a href="perfil.html"><div class="fa fa-user fa-lg"></div> &nbsp; Perfil</a></li>
+                <li class="link"><a href="search.html"><div class="fa fa-search fa-lg"></div> &nbsp; Buscar</a></li>
+                <li class="link"><a href="news.html"><div class="fa fa-rss-square fa-lg"></div> &nbsp; Noticias</a></li>
+                <li class="link"><a href="settings.html"><div class="fa fa-gears fa-lg"></div> &nbsp; Ajustes</a></li>
+                <li class="link"><a href="http://www.siesweb.com/" target="_blank"><div class="fa fa-info-circle fa-lg"></div> &nbsp; Acerca de nosotros</a></li>
             </ul>
+            <div class="col-xs-10">
+                <img id="logoMenuTop" class="replace-2x" width="120" src="images/logo.png" alt="img">
             </div>
-            <div class="clear spacer4"></div>
         </div>
 
-        <div class="btn-group btn-group-justified btn-group-sm" id="navbar-bottom">
-            <a class="btn btn-default " href="perfil.html"><span class="fa fa-user"></span> Perfil</a>
-            <a class="btn btn-default " href="search.html"><span class="fa fa-search"></span> Buscar</a>
-            <a class="btn btn-default " href="news.html"><span class="fa fa-rss"></span> Noticias</a>
-            <a class="btn btn-default " href="settings.html"><span class="fa fa-cogs"></span> Ajustes</a>
+        <div class="tituloPages">Vida</div>
+        
+        <div class="newsExpand">
+            <img class="fotoNewsExpand" src="images/vida.jpg" alt="" >
+            <div class="asistenciaTitulo">Odontología</div>
+            <div id="txtVida">Aute possumus graviterque ab mandaremus lorem mandaremus, ad non quem offendit a et hic reprehenderit se sunt concursionibus probant illum quibusdam, aliqua voluptate an commodo iis aliqua doctrina transferrem, ut malis quibusdam instituendarum.</div>
+            
+            <div class="asistenciaTitulo">Centros médicos</div>
+            <div id="txtVida">Aute possumus graviterque ab mandaremus lorem mandaremus, ad non quem offendit a et hic reprehenderit se sunt concursionibus probant illum quibusdam, aliqua voluptate an commodo iis aliqua doctrina transferrem, ut malis quibusdam instituendarum.</div>
+            
+            <div class="asistenciaTitulo">Medicina prepagada</div>
+            <div id="txtVida">Aute possumus graviterque ab mandaremus lorem mandaremus, ad non quem offendit a et hic reprehenderit se sunt concursionibus probant illum quibusdam, aliqua voluptate an commodo iis aliqua doctrina transferrem, ut malis quibusdam instituendarum.</div>
         </div>
+        
+        
+
     </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
