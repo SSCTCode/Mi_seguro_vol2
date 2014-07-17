@@ -94,10 +94,10 @@ $(document).ready(function(){
 				var currentId = $(ui.draggable).attr('id');
 				if(currentId == "draggable"){
 					$(this) 
-					window.location.href = "notificacion1.html";
+					window.location.href = "confirDir.html";
 				}else if(currentId =="draggable-2"){
 					$(this)
-					window.location.href = "notificacion2.html";
+					window.location.href = "";
 				}else if(currentId =="draggable-3"){
 					$(this)
 					window.location.href = "hogar.html";
@@ -108,7 +108,7 @@ $(document).ready(function(){
 				}
 				else if(currentId =="draggable-5"){
 					$(this)
-					window.location.href = "procedimientos.html";
+					window.location.href = "robos.html";
 				}
 				else if(currentId =="draggable-6"){
 					$(this)
