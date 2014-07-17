@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    
+    <title>Seguros del Estado</title>
+    
+    <link rel="apple-touch-icon" sizes="114x114" href="icon@2x.png">
+    <link rel="apple-touch-startup-image" href="splash-screen@2x-ip4.jpg" media="screen and (max-device-width: 320px)" />
+    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="splash-screen@2x.jpg" />
+    
+    <link href="css/style-6-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/retina-6-icons.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/init.js"></script>
+    
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/contact.js"></script>
+    <script src="scripts/retina.js"></script>
+    <script src="scripts/swipe.js"></script>
+    <script src="scripts/klass.min.js"></script>
+    <script src="scripts/photoswipe.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/jquery.ui.touch-punch.js"></script>
+    <script src="scripts/custom.js"></script>
+    <script src="scripts/custom-6-icons.js"></script>
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+  <script src="jquery/iphone-style-checkboxes.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/check.css" type="text/css" media="screen" charset="utf-8" />
+  <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+      $('.on_off :checkbox').iphoneStyle();
+      $('.disabled :checkbox').iphoneStyle();
+      
+      var onchange_checkbox = ($('.onchange :checkbox')).iphoneStyle({
+        onChange: function(elem, value) { 
+          $('span#status').html(value.toString());
+        }
+      });
+      
+      setInterval(function() {
+        onchange_checkbox.prop('checked', !onchange_checkbox.is(':checked')).iphoneStyle("refresh");
+        return
+      }, 2500);
+    });
+  </script>
+    
+</head>
+<body>
+
+    <div class="landscape-mode">
+        <div class="logo"><img src="images/logo.png" width="159" height="auto"></div>
+        <div class="txtLandscape">Ubique su celular de forma vertical<br>para tener una mejor experiencia de uso</div>
+        <div class="bg-login-landscape"></div>
+    </div>
+
+    <div class="portrait-mode">
+        <div class="topHead"></div>
+        <div class="menuTop">
+            <div class="col-xs-1">
+                <a class="menu-icon" href="#"><div id="iconMenuTop" class="fa fa-bars fa-2x"></div></a>
+            </div>
+            <ul class="side-menu">
+                <div class="topHead"></div>
+                <li class="link"><a href="home.html"><div class="fa fa-map-marker fa-lg"></div> &nbsp; Inicio</a></li>
+                <li class="link"><a href="perfil.html"><div class="fa fa-user fa-lg"></div> &nbsp; Perfil</a></li>
+                <li class="link"><a href="search.html"><div class="fa fa-search fa-lg"></div> &nbsp; Buscar</a></li>
+                <li class="link"><a href="news.html"><div class="fa fa-rss-square fa-lg"></div> &nbsp; Noticias</a></li>
+                <li class="link"><a href="settings.html"><div class="fa fa-gears fa-lg"></div> &nbsp; Ajustes</a></li>
+                <li class="link"><a href="http://www.siesweb.com/" target="_blank"><div class="fa fa-info-circle fa-lg"></div> &nbsp; Acerca de nosotros</a></li>
+            </ul>
+            <div class="col-xs-10">
+                <img id="logoMenuTop" class="replace-2x" width="120" src="images/logo.png" alt="img">
+            </div>
+        </div>
+
+        <h3 class="big-heading first-heading">Ajustes</h3>
+
+        <div class="">
+            <div class="col-xs-6"> <h5>Permitir notificaciones</h5></div>
+            <div class="col-xs-5"> <div class="on_off"><input type="checkbox" id="on_off" /></div></div>
+            <div class="clear"></div>
+            <div class="col-xs-12"> <h5>Mostar en el mapa</h5></div>
+            <div class="col-xs-6"> <h6>Talleres</h6></div>
+            <div class="col-xs-6"> <div class="on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div></div>
+            <div class="clear"></div>
+            <div class="col-xs-6"> <h6>Oficinas</h6></div>
+            <div class="col-xs-6"> <div class="on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div></div>
+            <div class="clear"></div>
+            <div class="col-xs-6"> <h6>Hospitales</h6></div>
+            <div class="col-xs-6"> <div class="on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div></div>
+            <div class="clear spacer2"></div>
+            <div class="col-xs-6"> <h5>Permitir uso de camara</h5></div>
+            <div class="col-xs-6"> <div class="on_off"><input type="checkbox" id="on_off" /></div></div>
+            <div class="clear spacer6"></div>
+
+    <!--<table>
+        <tr class="onchange">
+          <td>
+            <input type="checkbox" id="onchange" />
+            <p>Checkbox status is <strong><span id="status">...</span></strong>.</p>
+          </td>
+        </tr>
+    </table>-->
+        </div>
+
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

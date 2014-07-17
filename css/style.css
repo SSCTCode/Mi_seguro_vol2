@@ -1,0 +1,165 @@
+/* CSS Document */
+@charset "utf-8";
+/* @media only screen and (min-height: 0px) and (max-height: 960px){
+    .logoSiesiP5{display: none;}
+}
+@media only screen and (min-height: 980px) and (max-height: 1136px) {
+    .logoSies{display: none;}
+}
+*/
+
+@media screen and (orientation:landscape){
+    body{width: 100%; height: 100%; 
+        background:url(../images/bg-login-ladnscape2.jpg) center -150px no-repeat !important;
+    }
+    .portrait-mode{ display:none;}
+    .bg-login-landscape{
+        overflow-x:hidden;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100% !important;
+        z-index: -9;
+        max-width: 1136px;
+        max-height: 640px;
+    }
+    
+    .txtLandscape{ 
+        font-size:1.5em; color: #ffffff; text-align: center; font-weight: 300;
+        margin-left: auto; margin-right: auto; margin-top: 20px;}
+    .logo{ margin-top: 10% !important; margin-left: auto; margin-right: auto; text-align: center; }
+
+}
+@media screen and (orientation:portrait){
+    .landscape-mode{ display:none;}
+}
+
+
+/*////////////*/ /* GENERAL */
+body{font-size:11px; color: grey; font-weight: 400; font-family: 'helvetica', sans-serif !important; 
+ width: 100%; height: 100%;}
+/* /////////////////// MENU LATERAL*/
+body {
+    line-height: 1;
+    position: relative;
+    left: 0;
+    -webkit-transition: left .3s;
+    transition: left .3s;
+    background: #ffffff;
+}
+body.open {left: 180px;}
+ul.side-menu {
+  position: fixed;
+  top: 0;
+  left: -180px;
+  width: 180px;
+  height: 100%;
+  background-color: #2B2868;
+  z-index: -1;
+  -webkit-transition: left .3s;
+  transition: left .3s;
+}
+ul.side-menu.open {left: 0;}
+ul.side-menu li {
+    position: absolute;
+    margin-top: 20px;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding-top:0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #555;
+    -webkit-transition: top .3s;
+    transition: top .3s;
+}
+ul.side-menu li.row {border: 0; position: static; top: 0; height: 0; -webkit-transition: none; transition: none;  }
+ul.side-menu li a { display: block; font-size: 1.1em; font-weight: 300; padding: 0; margin: 0; height: inherit; line-height: inherit; color: #DEDCE9;}
+
+/* ///////////////// */ /* GENERAL */
+.topHead{height: 20px; width: 100%; background: #2B2868;}
+
+.logo{	padding-top:20px;	padding-bottom:10px;	width:160px;	margin:auto;}
+.logo-login{ text-align: center; margin-top: 3%; }
+.sub-logo-text{    margin-top: 6px;	text-align:center;	font-size:12px;	color:#2b2868;}
+
+.login { width: 55%; margin-left: auto; margin-right: auto; margin-top: 75%;}
+.mainLogin{width: 100%; margin-left: auto; margin-right: auto;}
+
+.bg{
+    background:url(../images/bgIndex.jpg) center top no-repeat; 
+    width: 100%; height: 100% !important; position: absolute;}
+.bgHome{
+    background:url(../images/bgHome.jpg) center top no-repeat; 
+    width: 100%; height: 100% !important; position: absolute;}
+.bgSite{
+    background:#ffffff center top no-repeat; 
+    width: 100%; height: 100% !important; position: absolute;}
+
+.white { color: white;}
+
+a{ text-decoration: none!important;}
+*{ margin:0px;	padding:0px; border:0px; -webkit-text-size-adjust:none;}
+p{font-size:1em; }
+li{	line-height:18px;}
+li,ul,ol{list-style: none;}
+
+.clear{	clear:both;}
+
+.spacer1{height: 10px;} .spacer2{height: 20px;} .spacer3{height: 30px;} .spacer4{height: 40px;} .spacer5{height: 50px;}
+.spacer6{height: 60px;} .spacer7{height: 70px;} .spacer8{height: 80px;} .spacer9{height: 90px;} .spacer10{height: 100px;}
+
+.menuTop{ height: 50px; background: rgba(241,241,242,0.3);}
+.menuTop #logoMenuTop{
+    text-align: center !important; padding-top: 10px;
+    margin-left: 21%; margin-right: auto;}
+.menuTop #iconMenuTop{color: #2B2868; padding-top: 15px;}
+
+.modal-footer a{
+    text-decoration: none;
+    color: #4273B9;
+    font-size: 1.45em;
+}
+.modal-footer #cancelar{
+    border-left: 1px solid #919090;
+    top: 0px;
+    bottom: 0px;
+}
+
+.tituloPages{
+    height: 40px; background: #ffffff; border-bottom: 1px solid; padding-top: 10px;
+    border-bottom-color: #2B2868;
+    color: #2B2868; font-size: 1.6em; text-align: center;
+}
+
+.txt-btn{ font-size: .7em; text-align: center; color: white;}
+
+.buscar{height: 50px; width: 24%; font-size: .7em !important;}
+.news{    font-weight: 200;    font-size: .9em;}
+.news-white{color:white;}
+
+.pic-perfil{margin-left: auto; margin-right: auto;}
+#perfil, #info{ font-size: .9em}
+#icon{margin: 10px 10px 0 10px;}
+#no{font-size:10px;}
+#yes{	font-size:10px;}.yes{	display:none;}
+
+.drag-interface{display:block;}
+.click-interface{display:none;}
+.centrar{ margin: auto !important; text-align: center !important;}
+
+/*//////*/ /*Footer*/
+
+.footer p{
+    position: absolute;
+    margin-left:30%;
+	bottom: 10px;
+	font-size:10px;
+	color:#2b2868;
+	text-align:center;
+}
+

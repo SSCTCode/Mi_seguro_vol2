@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0 minimal-ui"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name=apple-mobile-web-app-status-bar-style content=white>
+    
+    <title>Seguros del Estado</title>
+    
+    <link rel="apple-touch-icon" sizes="114x114" href="icon@2x.png">
+    <link rel="apple-touch-startup-image" href="splash-screen@2x-ip4.jpg" media="screen and (max-device-width: 320px)" />
+    <link rel="apple-touch-startup-image" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" href="splash-screen@2x.jpg" />
+    
+    <link href="css/style-6-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/retina-6-icons.css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" rel="stylesheet" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/init.js"></script>
+    
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/retina.js"></script>
+    <script src="scripts/swipe.js"></script>
+    <script src="scripts/klass.min.js"></script>
+    <script src="scripts/photoswipe.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src="scripts/jquery.ui.touch-punch.js"></script>
+    <script src="scripts/custom.js"></script>
+    <script src="scripts/custom-6-icons.js"></script>
+    
+</head>
+<body class="bgHome">
+    
+    <div class="landscape-mode">
+        <div class="topHead"></div>
+        <div class="logo"><img src="images/logo.png" width="159" height="auto"></div>
+        <div class="txtLandscape">Ubique su celular de forma vertical<br>para tener una mejor experiencia de uso</div>
+        <div class="bg-login-landscape"></div>
+    </div>
+
+    <div class="portrait-mode">
+        <div class="topHead"></div>
+        
+        <div class="menuTop">
+            <div class="col-xs-1">
+                <a class="menu-icon" href="#"><div id="iconMenuTop" class="fa fa-bars fa-2x"></div></a>
+            </div>
+            <ul class="side-menu">
+                <div class="topHead"></div>
+                <li class="link"><a href="home.html"><div class="fa fa-map-marker fa-lg"></div> &nbsp; Inicio</a></li>
+                <li class="link"><a href="perfil.html"><div class="fa fa-user fa-lg"></div> &nbsp; Perfil</a></li>
+                <li class="link"><a href="search.html"><div class="fa fa-search fa-lg"></div> &nbsp; Buscar</a></li>
+                <li class="link"><a href="news.html"><div class="fa fa-rss-square fa-lg"></div> &nbsp; Noticias</a></li>
+                <li class="link"><a href="settings.html"><div class="fa fa-gears fa-lg"></div> &nbsp; Ajustes</a></li>
+                <li class="link"><a href="http://www.siesweb.com/" target="_blank"><div class="fa fa-info-circle fa-lg"></div> &nbsp; Acerca de nosotros</a></li>
+            </ul>
+            <div class="col-xs-10">
+                <img id="logoMenuTop" class="replace-2x" width="120" src="images/logo.png" alt="img">
+            </div>
+        </div>
+
+        <div class="drag-interface circle-navigation">
+            <div class="circle-in">
+                <div id="droppable">
+                    <img class="replace-2x drag-icon" width="50" src="images/drag-icon.png" alt="img">
+                    <p class="drag-text">Suelte los<br> íconos aquí!</p>
+                </div>
+            </div>
+
+            <!-- To change the hrefs for these, go to custom.js, and edit lines 21 ,24, 27, 31 -->
+            <div class="menu1-icon">
+                <img width="45" class="replace-2x" id="draggable" src="images/nav/menu1.png" alt="Accidente leve">
+                <div class="txt-btn">Accidente leve</div>
+                <!-- <a href="" data-toggle="modal" data-target="#confirmacion"></a> -->
+            </div>
+            <div class="menu2-icon">
+                <img width="35" class="replace-2x" id="draggable-2" src="images/nav/menu2.png" alt="Accidente con heridos">
+                <div class="txt-btn">Accidente heridos</div>
+            </div>
+           <div class="menu3-icon">
+                <img width="40" class="replace-2x" id="draggable-3" src="images/nav/menu9.png" alt="Hogar">
+               <div class="txt-btn">Hogar</div>
+            </div>
+           <div class="menu4-icon">
+                <img width="40" class="replace-2x" id="draggable-4" src="images/nav/menu8.png" alt="Odontología" >
+               <div class="txt-btn">Vida</div>
+            </div>
+            <div class="menu5-icon">
+                <img width="38" class="replace-2x" id="draggable-5" src="images/nav/menu10.png" alt="Procedimientos">
+                <div class="txt-btn">Robos</div>
+            </div>
+            <div class="menu6-icon">
+                <img width="40" class="replace-2x" id="draggable-6" src="images/nav/menu3.png" alt="Asistencia">
+                <div class="txt-btn">Asistencia</div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="confirmacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Confirmar asistencia</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="notification-text">
+                            Confirme si usted desea solicitar asistencia
+                        </p>
+                        <div class="clear spacer2"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-xs-6"><a href="confirDir.html">Confirmar</a></div>
+                        <div id="cancelar" class="col-xs-6"><a href="#" data-dismiss="modal">Cancelar</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    
+
+</body>
+</html>

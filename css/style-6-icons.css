@@ -1,0 +1,126 @@
+/*/////////////////*/
+/*Circle Navigation*/
+
+.circle-navigation{
+	width:257px;
+	height:257px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+	background-image:url(../images/nav/nav6.png);
+	background-repeat:no-repeat;
+	border-radius:257px;
+	-webkit-border-radius:257px;
+}
+.drophover{ 
+	opacity:0.1;
+}
+.circle-in{
+	position:absolute;
+	margin-top:63px;
+	margin-left:63px;
+}
+#droppable{
+	transition: opacity 0.4s;
+	-moz-transition:opacity 0.4s; 
+	-webkit-transition:opacity 0.4s; 
+	-o-transition:opacity 0.4s; 
+	position:absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+	border-radius:100px;
+	-webkit-border-radius:100px;
+	width:100px;
+	height:100px;
+    background: #f1f1f2;
+}
+
+.menu1-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-top:15px;
+	margin-left:50px;
+    text-align: center;
+}
+.menu2-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-top:25px;
+	margin-left:140px;
+    text-align: center;
+}
+.menu3-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-left:200px;
+	margin-top:100px;
+    text-align: center;
+}
+.menu4-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-left:150px;
+	margin-top:180px;
+    text-align: center;
+}
+.menu5-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-left:70px;
+	margin-top:180px;
+    text-align: center;
+}
+.menu6-icon{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:absolute;
+	margin-top:100px;
+	margin-left:20px;
+    text-align: center;
+}
+
+.drag-icon{
+	margin-top:20px;
+	margin-left:25px;
+}
+
+.click-icon{
+	margin-top:20px;
+	margin-left:45px;
+}
+
+.drag-text{
+	font-size:10px;
+	width:100px;
+	text-align:center;
+	color:#8b8b8b;
+}
