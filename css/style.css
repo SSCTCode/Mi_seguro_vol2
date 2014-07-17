@@ -182,6 +182,50 @@ li,ul,ol{list-style: none;}
 }
 .txt-btn{ font-size: .7em; text-align: center; color: white;}
 
+#perfil{ width: 100%; margin-top: 20px; }
+
+.tituloPerfil{
+    width: 100%;
+    height: 40px; 
+    background: #FBF7E3; 
+    padding-top: 10px;
+    color: #2B2868; 
+    font-size: 1.6em; text-align: center;
+}
+
+.fotoPerfil{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0px;
+}
+.btnFotoPerfil{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0px;
+    width: 100%;
+    background: #2B2868;
+    color: white;
+    height: 30px;
+    border: 0px;
+    font-size: 1.3em; font-weight: 300;
+}
+.usuario, .datosSeguro{
+    width: 90%;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 20px;
+}
+.datosUsuario{
+    margin-left: 38%; font-size: 1.3em;
+    color: #2B2868;
+}
+.datosVariables, .datosFijos{padding-top: 5px;}
+.datosVariables{ font-weight: 300;}
+.datosFijos{ font-weight: 600;}
+
+.datosSeguro{margin-top: 5px; color: #2B2868; font-size: 1.3em; font-weight: 300;}
+
+
 .buscar{height: 50px; width: 24%; font-size: .7em !important;}
 .news{    font-weight: 200;    font-size: .9em;}
 .news-white{color:white;}
