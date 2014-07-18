@@ -45,9 +45,8 @@
     <div class="portrait-mode">
         <div class="topHead"></div>
         <div class="menuTop">
-            <div class="col-xs-1">
-                <a class="menu-icon" href="#"><div id="iconMenuTop" class="fa fa-bars fa-2x"></div></a>
-            </div>
+            <a class="pull-left menu-icon" href="#"><div id="iconMenuTop" class="fa fa-bars fa-2x"></div></a>
+            <img id="logoMenuTop" class="replace-2x" width="120" src="images/logo.png" alt="img">
             <ul class="side-menu">
                 <div class="topHead"></div>
                 <li class="link"><a href="home.html"><div class="fa fa-map-marker fa-lg"></div> &nbsp; Inicio</a></li>
@@ -57,97 +56,96 @@
                 <li class="link"><a href="settings.html"><div class="fa fa-gears fa-lg"></div> &nbsp; Ajustes</a></li>
                 <li class="link"><a href="http://www.siesweb.com/" target="_blank"><div class="fa fa-info-circle fa-lg"></div> &nbsp; Acerca de nosotros</a></li>
             </ul>
-            <div class="col-xs-10">
-                <img id="logoMenuTop" class="replace-2x" width="120" src="images/logo.png" alt="img">
-            </div>
         </div>
 
-        <div class="tituloPages">Asistencia</div>
-        
-        <div class="tabsAsistencia">
-              <div class="active ">
-                  <a class="btn btn-default" href="#varada" role="tab" data-toggle="tab">Varada</a>
-                  <a class="btn btn-default" href="#pinchada" role="tab" data-toggle="tab">Pinchada</a>
-                  <a class="btn btn-default" href="#viajes" role="tab" data-toggle="tab">Viajes</a>
-                  <a class="btn btn-default" href="#puerta" role="tab" data-toggle="tab">Apertura puertas</a>
-            </div>
-        </div>
+        <div class="contenidoApp">
+            <div class="tituloPages">Asistencia</div>
 
-        <div class="clear"></div>
-        
-        <!-- Tab panes -->
-        <div class="tab-content">
-            <div class="tab-pane active" id="varada">
-                <div class="asistencia">
+            <div class="tabsAsistencia">
+                  <div class="active ">
+                      <a class="btn btn-default" href="#varada" role="tab" data-toggle="tab">Varada</a>
+                      <a class="btn btn-default" href="#pinchada" role="tab" data-toggle="tab">Pinchada</a>
+                      <a class="btn btn-default" href="#viajes" role="tab" data-toggle="tab">Viajes</a>
+                      <a class="btn btn-default" href="#puerta" role="tab" data-toggle="tab">Apertura puertas</a>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane active" id="varada">
+                    <div class="asistencia">
+                        <div class="newsExpand">
+                            <img class="fotoNewsExpand" src="images/mecanica.jpg" alt="" >
+                            <div class="asistenciaTitulo">Varada</div>
+                            <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
+                            </div>
+                        </div>
+                        <div class="menuFooterAsistencia">
+                        <div class="col-xs-6">
+                            <div class="btn btn-default btnFooter"><a href="#">Asistencia mecánica</a></div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="btn btn-default btnFooter"><a href="#">Solicitar grúa</a></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="pinchada">
+                    <div class="asistencia">
                     <div class="newsExpand">
-                        <img class="fotoNewsExpand" src="images/mecanica.jpg" alt="" >
-                        <div class="asistenciaTitulo">Varada</div>
+                        <img class="fotoNewsExpand" src="images/pinchar.jpg" alt="" >
+                        <div class="asistenciaTitulo">Pinchada</div>
                         <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
                         </div>
                     </div>
                     <div class="menuFooterAsistencia">
                         <div class="col-xs-6">
-                            <div class="btn btn-default btnFooter"><a href="notificaciones.html">Asistencia mecánica</a></div>
+                            <div class="btn btn-default btnFooter"><a href="#">Asistencia mecánica</a></div>
                         </div>
                         <div class="col-xs-6">
-                            <div class="btn btn-default btnFooter"><a href="notificaciones.html">Solicitar grúa</a></div>
+                            <div class="btn btn-default btnFooter"><a href="#">Solicitar grúa</a></div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-pane" id="pinchada">
-                <div class="asistencia">
-                <div class="newsExpand">
-                    <img class="fotoNewsExpand" src="images/pinchar.jpg" alt="" >
-                    <div class="asistenciaTitulo">Pinchada</div>
-                    <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
+                </div>
+                <div class="tab-pane" id="viajes">
+                    <div class="asistencia">
+                    <div class="newsExpand">
+                        <img class="fotoNewsExpand" src="images/travel.jpg" alt="" >
+                        <div class="asistenciaTitulo">Viajes</div>
+                        <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
+                        </div>
+                    </div>
+                    <div class="menuFooterAsistencia">
+                        <div class="col-xs-6">
+                            <div class="btn btn-default btnFooter"><a href="#">Asistencia mecánica</a></div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="btn btn-default btnFooter"><a href="#">Solicitar grúa</a></div>
+                        </div>
                     </div>
                 </div>
-                <div class="menuFooterAsistencia">
-                    <div class="col-xs-6">
-                        <div class="btn btn-default btnFooter"><a href="notificaciones.html">Asistencia mecánica</a></div>
+                </div>
+                <div class="tab-pane" id="puerta">
+                    <div class="asistencia">
+                    <div class="newsExpand">
+                        <img class="fotoNewsExpand" src="images/puerta.jpg" alt="" >
+                        <div class="asistenciaTitulo">Apertura de puertas</div>
+                        <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
+                        </div>
                     </div>
-                    <div class="col-xs-6">
-                        <div class="btn btn-default btnFooter"><a href="notificaciones.html">Solicitar grúa</a></div>
+                    <div class="menuFooterAsistencia">
+                        <div class="col-xs-6">
+                            <div class="btn btn-default btnFooter"><a href="#">Asistencia mecánica</a></div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="btn btn-default btnFooter"><a href="#">Solicitar grúa</a></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </div>
-            <div class="tab-pane" id="viajes">
-                <div class="asistencia">
-                <div class="newsExpand">
-                    <img class="fotoNewsExpand" src="images/travel.jpg" alt="" >
-                    <div class="asistenciaTitulo">Viajes</div>
-                    <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
-                    </div>
                 </div>
-                <div class="menuFooterAsistencia">
-                    <div class="col-xs-6">
-                        <div class="btn btn-default btnFooter"><a href="notificaciones.html">Asistencia mecánica</a></div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="btn btn-default btnFooter"><a href="notificaciones.html">Solicitar grúa</a></div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            <div class="tab-pane" id="puerta">
-                <div class="asistencia">
-                <div class="newsExpand">
-                    <img class="fotoNewsExpand" src="images/puerta.jpg" alt="" >
-                    <div class="asistenciaTitulo">Apertura de puertas</div>
-                    <div id="txtNews">Si su auto presenta alguna falla técnica o eléctrica y no enciende correctamente, podemos prestarle el servicio de asistencia correspondiente
-                    </div>
-                </div>
-                <div class="menuFooterAsistencia">
-                    <div class="col-xs-6">
-                        <div class="btn btn-default btnFooter"><a href="notificaciones.html">Asistencia mecánica</a></div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="btn btn-default btnFooter"><a href="notificaciones.html">Solicitar grúa</a></div>
-                    </div>
-                </div>
-            </div>
             </div>
         </div>
 
