@@ -65,17 +65,17 @@
             <div class="settingsApp">
                 <div class="settingsApp">
                     <div class="pull-left">Notificaciones</div>
-                    <div class="pull-right"><div class="on_off"><input type="checkbox" id="on_off" /></div></div>
+                    <div class="pull-right on_off"><input type="checkbox" id="on_off" /></div>
                     <div class="clear"></div>
                 </div>
                 <div class="settingsApp">
                     <div class="pull-left">Permitir localización</div>
-                    <div class="pull-right"><div class="on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div></div>
+                    <div class="pull-right on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div>
                     <div class="clear"></div>
                 </div>
                 <div class="settingsApp">
                     <div class="pull-left">Acceder a la cámara</div>
-                    <div class="pull-right"><div class="on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div></div>
+                    <div class="pull-right on_off"><input type="checkbox"  checked="checked" id="on_off_on" /></div>
                     <div class="clear"></div>
                 </div>
             </div>
@@ -103,13 +103,11 @@
         $(window).load(function() {
           $('.on_off :checkbox').iphoneStyle();
           $('.disabled :checkbox').iphoneStyle();
-
           var onchange_checkbox = ($('.onchange :checkbox')).iphoneStyle({
             onChange: function(elem, value) { 
               $('span#status').html(value.toString());
             }
           });
-
           setInterval(function() {
             onchange_checkbox.prop('checked', !onchange_checkbox.is(':checked')).iphoneStyle("refresh");
             return
