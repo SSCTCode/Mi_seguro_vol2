@@ -147,11 +147,14 @@ li,ul,ol{list-style: none;}
     color: white;
     height: 30px;
     border: 0px;
+    padding-left: -10px !important;
 }
 .btnFooter a {
     color: white;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1em;
+    text-align: center;
+    
 }
 
 .modal-footer a{
@@ -164,7 +167,8 @@ li,ul,ol{list-style: none;}
     top: 0px;
     bottom: 0px;
 }
-
+.formHijos{ width: 80%; margin-left: auto; margin-right: auto;}
+.legalHogar{font-size: .7em;}
 .tituloPages{
     height: 40px; background: #ffffff; border-bottom: 1px solid;
     border-bottom-color: rgba(17,59,96,0.3);
