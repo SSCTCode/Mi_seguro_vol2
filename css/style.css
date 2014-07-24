@@ -40,6 +40,20 @@ body {
     background: #ffffff;
 }
 body.open {left: 180px;}
+
+}
+.bg{
+    background:url(../images/bgIndex.jpg) center top no-repeat; 
+    width: 100%; 
+    height: 100% !important; 
+    position: absolute;}
+.bgHome{
+    background:url(../images/bgHome.jpg) center top no-repeat; 
+    width: 100%; height: 100% !important; position: absolute;}
+.bgSite{
+    background:#ffffff center top no-repeat; 
+    width: 100%; height: 100% !important; position: absolute;}
+
 ul.side-menu {
   position: fixed;
   top: 0;
@@ -93,15 +107,6 @@ ul.side-menu li a { display: block; font-size: 1.1em; font-weight: 300; padding:
 .login { width: 55%; margin-left: auto; margin-right: auto; margin-top: 75%;}
 .mainLogin{width: 100%; margin-left: auto; margin-right: auto;}
 
-.bg{
-    background:url(../images/bgIndex.jpg) center top no-repeat; 
-    width: 100%; height: 100% !important; position: absolute;}
-.bgHome{
-    background:url(../images/bgHome.jpg) center top no-repeat; 
-    width: 100%; height: 100% !important; position: absolute;}
-.bgSite{
-    background:#ffffff center top no-repeat; 
-    width: 100%; height: 100% !important; position: absolute;}
 
 .contenidoApp{padding-top: 70px;}
 .white { color: white;}
@@ -206,6 +211,16 @@ li,ul,ol{list-style: none;}
 .mapa{
     width: 100%; height: 380px;
     position: inherit;
+}
+.mapaHogar{
+    width: 100%; height: 100%;
+    top:185px;
+    bottom: 0px;
+}
+.mapaHogarBuscar{
+    width: 100%; height:400px;
+    top:185px;
+    bottom: 0px;
 }
 .txt-btn{ font-size: .7em; text-align: center; color: white;}
 
@@ -408,16 +423,7 @@ li,ul,ol{list-style: none;}
     border-bottom: 1px solid;
     border-bottom-color: rgba(17,59,96,0.3);
 }
-.mapaHogar{
-    width: 100%; height: 100%;
-    top:185px;
-    bottom: 0px;
-}
-.mapaHogarBuscar{
-    width: 100%; height:400px;
-    top:185px;
-    bottom: 0px;
-}
+
 
 /*//////*/ /*Footer*/
 
