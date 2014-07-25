@@ -1,36 +1,162 @@
 /* Dalac • Responsive */
-
+@media screen and (orientation:landscape){
+    .bg-index{width: 100%; height: 100%; 
+        background:url(../images/bgIndexland.jpg) right 0px no-repeat !important;
+    }
+    .login { margin-top: 5% !important; margin-left: 7% !important;}
+    .drag-interface{display:block;margin-top: -3% !important; }
+    .menuTop{ margin-top: 20px; height: 30px!important; background: rgba(241,241,242,1); position: fixed; width: 100%; z-index: 99;}
+    .menuTop #logoMenuTop{
+        text-align: center !important; padding-top: 2px!important;
+        margin-left: 30%!important; margin-right: auto;}
+    .menuTop #iconMenuTop{color: #2B2868; padding-top: 5px!important; padding-left: 15px;}
+}
+@media screen and (orientation:portrait){
+    
+}
 /* MAX 1440px */
 @media only screen and (max-width: 1440px){
-
+    .bg-index{
+        background:url(../images/bgIndex1440.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 1440px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex1440h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 1440px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login {width: 25% !important; margin-top: 23%;}
 }
 /* MAX 1170px */
 @media only screen and (max-width: 1170px){
-
+    .bg-index{
+        background:url(../images/bgIndex1170.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 1170px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex1170h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 1170px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login {width: 30% !important; margin-top: 28%;}
 }
 /* MAX 1024px */
 @media only screen and (max-width: 1024px){
-
+    .bg-index{
+        background:url(../images/bgIndex1024.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 1024px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex1024h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 1024px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login {width: 30% !important; margin-top: 33%;}
 }
 /* MAX 930px */
 @media only screen and (max-width: 930px){
-
+    .bg-index{
+        background:url(../images/bgIndex930.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 930px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex930h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 930px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login {width: 35% !important; margin-top: 38%;}
 }
 /* MAX 800px */
 @media only screen and (max-width: 800px){
-
+    .bg-index{
+        background:url(../images/bgIndex800.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 800px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex800h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 800px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login {width: 40% !important; margin-top: 48%;}
 }
 /* MAX 640px */
 @media only screen and (max-width: 640px){
-
+    .bg-index{
+        background:url(../images/bgIndex640.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 640px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex640h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 640px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login {width: 40%!important; margin-top: 40%;}
 }
 /* MAX 568px */
 @media only screen and (max-width: 568px){
-
+    .bg-index{
+        background:url(../images/bgIndex568.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 568px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex568h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 568px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login { margin-top: 45%;}
 }
 /* MAX 480px */
 @media only screen and (max-width: 480px){
-
+    .bg-index{
+        background:url(../images/bgIndex480.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 480px;
+        height: 100% !important; 
+        position: absolute;
+    }
+    .bg-home{
+        background:url(../images/bgIndex480h.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 480px;
+        eight: 100% !important; 
+        position: absolute;
+    }
+    .login { margin-top: 48%;}
 }
 /* MAX 320px */
 @media only screen and (max-width: 320px){
@@ -42,10 +168,11 @@
         position: absolute;
     }
     .bg-home{
-        background:url(../images/bgIndex320.jpg) center top no-repeat; 
+        background:url(../images/bgIndex320h.jpg) center top no-repeat; 
         width: 100%;
         max-width: 320px;
         eight: 100% !important; 
         position: absolute;
     }
+    .login { width: 70% !important;}
 }
