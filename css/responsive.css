@@ -41,4 +41,11 @@
         height: 100% !important; 
         position: absolute;
     }
+    .bg-home{
+        background:url(../images/bgIndex320.jpg) center top no-repeat; 
+        width: 100%;
+        max-width: 320px;
+        eight: 100% !important; 
+        position: absolute;
+    }
 }

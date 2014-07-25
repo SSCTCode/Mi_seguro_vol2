@@ -41,7 +41,6 @@ body {
 }
 body.open {left: 180px;}
 
-}
 .bg{
     background:url(../images/bgIndex.jpg) center top no-repeat; 
     width: 100%; 
@@ -222,6 +221,7 @@ li,ul,ol{list-style: none;}
     top:185px;
     bottom: 0px;
 }
+#map-canvas{width: 100%; margin: 0px;}
 .txt-btn{ font-size: .7em; text-align: center; color: white;}
 
 #perfil{ width: 100%; margin-top: 20px; }
@@ -235,12 +235,6 @@ li,ul,ol{list-style: none;}
     font-size: 1.6em; text-align: center;
 }
 
-.fotoPerfil{
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-bottom: 0px;
-}
 .btnFotoPerfil{
     margin-left: auto !important;
     margin-right: auto !important;
@@ -252,13 +246,13 @@ li,ul,ol{list-style: none;}
     border: 0px;
     font-size: 1.3em; font-weight: 300;
 }
-.usuario, .datosSeguro{
-    width: 90%;
+.usuario, .datosSeguro, .datosUsuario{
+    width: 95%;
     margin-left: auto; margin-right: auto;
     margin-bottom: 20px;
 }
 .datosUsuario{
-    margin-left: 38%; font-size: 1.3em;
+    font-size: 1.3em;
     color: #2B2868;
 }
 .datosVariables, .datosFijos{padding-top: 5px;}
